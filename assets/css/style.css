@@ -76,7 +76,7 @@ main section:nth-child(3) :is(i,h4){
 main section:nth-child(4) img{
     padding-left: .4em;
     padding-right: .4em;
-    width: 23vw;
+    width: 24vw;
     height: 12em;
 }
 
@@ -99,7 +99,9 @@ footer h4 a:hover{
 }
 
 /*Media Queries*/
-
+@media{
+    
+}
 @media(max-width: 700px){
     main section:nth-child(n+2) {
         padding-bottom: 0;
@@ -121,5 +123,8 @@ footer h4 a:hover{
     }
     main section:nth-child(3) {
         display: none;
-    }      
+    } 
+    main section:nth-child(4) img  {
+        width: 32.5%;
+    }
 }
