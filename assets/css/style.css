@@ -99,8 +99,11 @@ footer h4 a:hover{
 }
 
 /*Media Queries*/
-@media{
-    
+@media(mmin-width: 1300px) {    
+    main section:nth-child(4) img  {  
+        height: 14em;      
+        width: 32.5%;
+    }
 }
 @media(max-width: 700px){
     main section:nth-child(n+2) {
@@ -124,7 +127,4 @@ footer h4 a:hover{
     main section:nth-child(3) {
         display: none;
     } 
-    main section:nth-child(4) img  {
-        width: 32.5%;
-    }
 }
