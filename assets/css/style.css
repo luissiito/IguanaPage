@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main section:nth-child(n+2){    
+    padding-bottom: 3em;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-top: 3em;
+}
+main section:nth-child(1) h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+main section:nth-child(1) img{
+    height: 727px;
+    width: 100%;
+}
+
+main section:nth-child(2){
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+main section:nth-child(2) article {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+main section:nth-child(2) article p{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+main section:nth-child(2) img{
+    width: 30vw;
+}
+
+main section:nth-child(3){
+    background-color: #2b2022;
+    text-align: center;
+}
+main section:nth-child(3) h1{
+    font-size: 2.1em;
+    font-weight: 400;
+}
+main section:nth-child(3) .contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+main section:nth-child(3) .contenedor div{
+    padding-top: 2.5em;
+}
+main section:nth-child(3) .contenedor div h4{    
+    font-weight: 300;
+}
+main section:nth-child(3) :is(.contenedor,div,h1,i,h4){
+    background-color: inherit;
+}
+main section:nth-child(3) :is(i,h4){
+    padding-bottom: .7em;
+    padding-top: .7em;
+}
+
+main section:nth-child(4) img{
+    padding-left: .4em;
+    padding-right: .4em;
+    width: 23vw;
+    height: 12em;
+}
+
+footer{
+    background-color: #2b2022;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
+}
+footer h4{
+    background-color: inherit;
+    font-weight: 300;
+}
