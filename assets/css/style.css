@@ -101,8 +101,7 @@ footer h4 a:hover{
 /*Media Queries*/
 @media(min-width: 1300px) {    
     main section:nth-child(4) img  {  
-        height: 14em;      
-        width: 32.5%;
+        height: 14em;  
     }
 }
 @media(max-width: 700px){
